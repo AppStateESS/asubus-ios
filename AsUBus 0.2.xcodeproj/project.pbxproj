@@ -57,7 +57,6 @@
 		D3E2E7D5159013340081385D /* Stops.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3E2E7D4159013340081385D /* Stops.plist */; };
 		D3E2E7DD1590BBBC0081385D /* BPCMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E2E7DC1590BBBC0081385D /* BPCMapAnnotation.m */; };
 		D3F08A8218A9CBD200D8F074 /* stockbanner.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F08A8118A9CBD200D8F074 /* stockbanner.png */; };
-		D3F08A8818B0101200D8F074 /* BPCAd.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F08A8718B0101200D8F074 /* BPCAd.m */; };
 		D3F08A8B18B1134C00D8F074 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F08A8918B1134C00D8F074 /* Default-568h@2x.png */; };
 		D3F08A8C18B1134C00D8F074 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F08A8A18B1134C00D8F074 /* Default@2x.png */; };
 		D3F08A8E18B1238200D8F074 /* icon@120.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F08A8D18B1238200D8F074 /* icon@120.png */; };
@@ -101,12 +100,6 @@
 		D322E88F18CE531400103A27 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D322E89118CE536100103A27 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		D322E89218CE536100103A27 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		D322E89518CE645800103A27 /* GAI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
-		D322E89618CE645800103A27 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
-		D322E89718CE645800103A27 /* GAIFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
-		D322E89818CE645800103A27 /* GAILogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
-		D322E89918CE645800103A27 /* GAITrackedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
-		D322E89A18CE645800103A27 /* GAITracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
 		D322E89C18CE64A700103A27 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		D322E89E18CE64AF00103A27 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D322E8A018CE64BD00103A27 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -140,14 +133,22 @@
 		D3E2E7DB1590BBBC0081385D /* BPCMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPCMapAnnotation.h; sourceTree = "<group>"; };
 		D3E2E7DC1590BBBC0081385D /* BPCMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPCMapAnnotation.m; sourceTree = "<group>"; };
 		D3F08A8118A9CBD200D8F074 /* stockbanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stockbanner.png; sourceTree = "<group>"; };
-		D3F08A8618B0101200D8F074 /* BPCAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPCAd.h; sourceTree = "<group>"; };
-		D3F08A8718B0101200D8F074 /* BPCAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPCAd.m; sourceTree = "<group>"; };
 		D3F08A8918B1134C00D8F074 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D3F08A8A18B1134C00D8F074 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D3F08A8D18B1238200D8F074 /* icon@120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@120.png"; sourceTree = "<group>"; };
 		D3F1752E15AA65B9006B922E /* MainScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainScreen.png; sourceTree = "<group>"; };
 		D3F4231C17065B8D008FA1F8 /* BPCTwitterWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPCTwitterWebViewController.h; sourceTree = "<group>"; };
 		D3F4231D17065B8D008FA1F8 /* BPCTwitterWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPCTwitterWebViewController.m; sourceTree = "<group>"; };
+		FAD996611AD05DAE005DA25C /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		FAD996621AD05DAE005DA25C /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		FAD996631AD05DAE005DA25C /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		FAD996641AD05DAE005DA25C /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		FAD996651AD05DAE005DA25C /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		FAD996661AD05DAE005DA25C /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		FAD996671AD05DD1005DA25C /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		FAD996681AD05DD1005DA25C /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		FAD996691AD05DD1005DA25C /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		FAD9966A1AD05DD1005DA25C /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,12 +281,16 @@
 		D322E89418CE644500103A27 /* GAI */ = {
 			isa = PBXGroup;
 			children = (
-				D322E89518CE645800103A27 /* GAI.h */,
-				D322E89618CE645800103A27 /* GAIDictionaryBuilder.h */,
-				D322E89718CE645800103A27 /* GAIFields.h */,
-				D322E89818CE645800103A27 /* GAILogger.h */,
-				D322E89918CE645800103A27 /* GAITrackedViewController.h */,
-				D322E89A18CE645800103A27 /* GAITracker.h */,
+				FAD996671AD05DD1005DA25C /* GAIEcommerceFields.h */,
+				FAD996681AD05DD1005DA25C /* GAIEcommerceProduct.h */,
+				FAD996691AD05DD1005DA25C /* GAIEcommerceProductAction.h */,
+				FAD9966A1AD05DD1005DA25C /* GAIEcommercePromotion.h */,
+				FAD996611AD05DAE005DA25C /* GAI.h */,
+				FAD996621AD05DAE005DA25C /* GAIDictionaryBuilder.h */,
+				FAD996631AD05DAE005DA25C /* GAIFields.h */,
+				FAD996641AD05DAE005DA25C /* GAILogger.h */,
+				FAD996651AD05DAE005DA25C /* GAITrackedViewController.h */,
+				FAD996661AD05DAE005DA25C /* GAITracker.h */,
 			);
 			name = GAI;
 			sourceTree = "<group>";
@@ -297,8 +302,6 @@
 				D322E89218CE536100103A27 /* Reachability.m */,
 				D3DEC37E15DC95EF002BAFE2 /* BPCFavorite.h */,
 				D3DEC37F15DC95EF002BAFE2 /* BPCFavorite.m */,
-				D3F08A8618B0101200D8F074 /* BPCAd.h */,
-				D3F08A8718B0101200D8F074 /* BPCAd.m */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -351,7 +354,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BPC;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0620;
 				TargetAttributes = {
 					D310D8E4158E69C500CBB844 = {
 						DevelopmentTeam = USLA42BS3J;
@@ -430,7 +433,6 @@
 				D3DEC37115D62413002BAFE2 /* BPCAboutViewController.m in Sources */,
 				D3DEC37415D76009002BAFE2 /* BPCHoursViewController.m in Sources */,
 				D3DEC38015DC95EF002BAFE2 /* BPCFavorite.m in Sources */,
-				D3F08A8818B0101200D8F074 /* BPCAd.m in Sources */,
 				D33B21EE15E18AF000BC4EEB /* BPCTempChangesViewController.m in Sources */,
 				D3403EBC1630DC2C008C7506 /* BPCReportViewControllerTime.m in Sources */,
 				D3F4231E17065B8D008FA1F8 /* BPCTwitterWebViewController.m in Sources */,
@@ -463,17 +465,19 @@
 		D310D901158E69C500CBB844 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Brian Clee (AZS6TGQS53)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Brian Clee (AZS6TGQS53)";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -500,17 +504,19 @@
 		D310D902158E69C500CBB844 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Brian Clee (USLA42BS3J)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Brian Clee (USLA42BS3J)";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -538,8 +544,9 @@
 				INFOPLIST_FILE = "AsUBus 0.2/AsUBus 0.2-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				LIBRARY_SEARCH_PATHS = (
+					"/home/jbooker/asubus-ios/**",
+					/Users/jbooker/GoogleAnalyticsServicesiOS_3.10,
 					"$(inherited)",
-					"/Users/Brian/Documents/ASU/Summer\\ 2012/iPhone\\ Dev/Final\\ Project/AsUBus\\ 0.2/AsUBus\\ 0.2/AsUBus\\ 0.2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -558,8 +565,9 @@
 				INFOPLIST_FILE = "AsUBus 0.2/AsUBus 0.2-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				LIBRARY_SEARCH_PATHS = (
+					"/home/jbooker/asubus-ios/**",
+					/Users/jbooker/GoogleAnalyticsServicesiOS_3.10,
 					"$(inherited)",
-					"/Users/Brian/Documents/ASU/Summer\\ 2012/iPhone\\ Dev/Final\\ Project/AsUBus\\ 0.2/AsUBus\\ 0.2/AsUBus\\ 0.2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
